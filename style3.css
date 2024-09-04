@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        "header header header header header header"
+        "sidebar content content content content content"
+        "footer footer footer footer footer footer";
+    
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+
+    grid-area: header;
+    height: 10vh;
+    background-color: aqua;
+}
+
+.sidebar {
+    height: 60vh;
+
+    grid-area: sidebar;
+    background-color: green;
+}
+
+.content {
+    height: 60vh;
+    grid-area: content;
+    background-color: gray;
+}
+
+.footer {
+    height: 30vh;
+    grid-area: footer;
+    background-color: brown;
+}
+
+
+
+/* CSS */
+.swiper-container {
+
+    width: 100%;
+    height: auto;
+  }
+  
+  .swiper-wrapper {
+ padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .swiper-slide {
+display: flex;
+flex-direction: column;
+align-items: center;
+   justify-content: center;
+    
+    margin: 10px;
+    flex-shrink: 1;
+    width: auto; /* Adjust based on desired size */
+  }
+  
+  .swiper-slide img {
+    border-radius: 10vh; /* Makes the image round */
+    height: 70px;
+    width: 70px;
+  }
+  
+  .swiper-slide p {
+     text-align:center; /* Centers text below image */
+  }
+  

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style3.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+   
+   <style>
+
+    /* nav bar styling */
+                .navbar-nav .nav-item {
+            margin-right: 20px; 
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+     <!-- prenavbar start -->
+     <div class="flex-container">
+        <p></p>
+        <p class="text-center" style="margin: 0;">
+            Explore more products added on sale up to 50% on your favorite right <b><a href="#">here</a></b>.
+        </p>
+        <p class="d-flex" style="margin: 0; padding-right: 20px;">Track</p>
+    </div>  
+    <!-- prenavbar end -->
+
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <image class="navbar-brand" src="https://pk.khaadi.com/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dwb33579b0/images/logo/logo.svg">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: orange;">SALE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NEW IN</a>
+                    </li>
+                    <li class="nav-item">
+                       <b> <a class="nav-link" href="#">#INSTAKHAADI</a></b>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FABRICS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">READY TO WEAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FRANGRANCES</a>
+                    </li>
+                </ul>
+                <i class="fa-solid fa-magnifying-glass" style="margin-right: 10px;"></i>
+                <i class="fa-regular fa-heart" style="margin-right: 10px;"></i>
+                <i class="fa-regular fa-user" style="margin-right: 10px;"></i>
+                <i class="fa-solid fa-cart-shopping" style="margin-right: 10px;"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- swiper start -->
+   <!-- HTML -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="image/ahsan1.jpg" alt="Exclusively Online">
+        <p>Exclusively Online</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="image/ahsan2.jpg" alt="Just In: Slide">
+        <p>Just In: Slide</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="image/ahsan 3.jpg" alt="Just In: 24/7">
+        <p>Just In: 24/7</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="image/ahsan1.jpg" alt="Exclusively Online">
+        <p>Exclusively Online</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="image/ahsan2.jpg" alt="Just In: Slide">
+        <p>Just In: Slide</p>
+      </div>
+      <div class="swiper-slide">
+        <img src="image/ahsan 3.jpg" alt="Just In: 24/7">
+        <p>Just In: 24/7</p>
+      </div>
+      <!-- ... other slides ... -->
+    </div>
+  </div>
+  
+
+    <!-- swiper end  -->
+    
+</body>
+<!-- Include Swiper's JavaScript -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js">
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 6, // Display 6 slides at a time
+    loop: true, // Enable continuous loop mode
+    autoplay: {
+      delay: 2500, // Delay between transitions (in ms)
+      disableOnInteraction: false, // Continue autoplay when user interacts with the swiper
+    },
+  });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
